@@ -6,7 +6,7 @@ from google import genai
 from google.genai import types
 
 APP_TITLE = "AI YouTube Script Generator"
-DEFAULT_MODEL = "gemini-3.6-flash"
+DEFAULT_MODEL = "gemini-3.8-flash"
 
 def get_api_key() -> str | None:
     """Read the Gemini key from Streamlit Secrets or an environment variable."""
